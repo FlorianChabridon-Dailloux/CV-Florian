@@ -1,0 +1,45 @@
+body {
+   
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: tan;
+    border-radius: 10px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+
+
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#contact {
+    font-style: italic;
+    flex-direction: column;
+}
+
+#photo {
+    background-image: url(../Serious.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+}
+
+#photo:hover {
+    background-image: url(../funfunfun.jpg);
+}
+
+@media (max-width: 650px) {
+     body {background-image: url(../Cartman.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} 
+header { display: none;}
+main { display: none;}
+}
