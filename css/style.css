@@ -1,123 +1,42 @@
 body {
-    background-color: black;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #343148FF;
-    color: #D7C49EFF;
-    border-radius: 10px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
-    height: 8em;
-
-}
-
-h1 {
-    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 
+#wrapper {
 
-#photo {
-    background-image: url(../Serious.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 8em;
-    width: 8em;
-    border-radius: 50%;
 }
 
-/* Pour rajouter du fun la photo "s'anime" */
-#photo:hover {
-    background-image: url(../funfunfun.jpg);
+#header {
+
 }
 
-/* On essaye de faire une grande frise chronologique, qui ferais lien entre le passé histoire/archéo et le code */
+#nav-header {
 
-main {
-    display: flex;
-    overflow-x: scroll;
-    height: 35em;
-    background-size:contain ;
-    background-color: #D7C49EFF;
-    color: #343148FF;
+}
+
+.petit-titres {
     
+}
+
+.section-contenu {
 
 }
 
-.experiences {
-    display: flex;
-    align-items: center;
-}
-    .test {
-    position: relative;
-    border-bottom: 1px dotted black;
-  }
-  
-  .test:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    width: max-content;
-    background-color: #343148FF;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px, 5px;
-    transition: opacity 1s ease-in-out;
-  
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 110%;
-  }
-  
-  .test:hover:before {
-    opacity: 1;
-    visibility: visible;
-  }
-
-.formations {
-
-    display: flex;
-    align-items: center;
-}
-
-.divers {
-
-    display: flex;
-    align-items: center;
-}
-
-footer {
-    display: flex;
-    height: auto;
-    background-color: #343148FF;
-    color: #D7C49EFF;
+#description {
 
 }
 
-#contact {
-    font-style: italic;
-    flex-direction: row;
+#parcours {
+
 }
 
-/* Ici du responsive pour adapter aux portables tant que le site est pas fini */
-@media (max-width: 650px) {
-    body {
-        background-image: url(../Cartman.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
+#skills {
 
-    header {
-        display: none;
-    }
+}
 
-    main {
-        display: none;
-    }
+#footer {
+
+
 }

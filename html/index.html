@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mon beau CV</title>
+    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- On englobble tout notre CV dans une grande div -->
+    <div id="wrapper">
+        <!-- Notre header pourra contenir une nav-->
+        <header id="header">
+            <!-- Qui je suis ? -->
+            <h1>Florian Chabridon-Dailloux</h1>
+            <p> Techno-Mage en formation</p>
+            <!-- La nav pour mieux se déplacer dans le doc -->
+            <nav id="nav-header">
+                <ul>
+                    <!-- L'accueil-->
+                    <li><a href="#">Home</a></li>
+                    <!-- La page de description-->
+                    <li><a href="#description">Qui ?</a></li>
+                    <!-- Le parcours jusque la-->
+                    <li><a href="#parcours"></a>Comment ?</li>
+                    <!-- Ce qu'on sait faire-->
+                    <li><a href="#skills"></a>Quoi ?</li>
+                    <!-- Nous contacter ?-->
+                    <li><a href="#footer"></a>Contacter</li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <!-- Une première section pour s'introduire rapidement -->
+        <section id="description">
+            <h2 class="petit-titres">
+                <span>Ma personne</span>
+            </h2>
+            <div class="section-contenu"> 
+                <p>Ancien <strong>Archéologue</strong>, suite à la découverte des mystérieux glyphes mayas dont les figures évoquent des astronautes j'ai décidé de me reconvertir afin de mieux comprendre le langage universel des machines. J'ai donc entammé une formation de <strong>Techno-Mage</strong> (Developper Web pour les non initiés) afin de résoudre ce mystère et d'en apprendre plus sur la singularité. </p>
+
+            </div>
+        </section>
+
+        <!-- Une deuxième section pour dire quel est notre parcours -->
+        <section id="parcours">
+            <h2 class="petit-titres">
+                <span>Mes compétences</span>
+            </h2>
+            <!--Une image pour égayer un peu tout ça quand même-->
+            <div class="section-contenu">
+                <img src="../img/moiquicode.jpg" alt="Florian regarde un écran de façon pensive">
+                <p> "C'est en forgeant qu'on devient forgeron" me disait mon grand-père. "On apprend de ses echecs" me disait ma mère. J'ai tenu à respecter les mantras de ces deux personnes pour forger l'être que je suis aujourd'hui : un echec.</p>
+                <!--Un tableau pour montrer en un coup d'oeil des choses que je sais faire-->
+                <table>
+                    <tr>
+                        <th class="type-data" >Diplômes</th>
+                        <th class="type-data" >Logiciels</th>
+                        <th class="type-data" >Langues</th>
+                    </tr>
+                    <tr>
+                        <td>Master 2 « Archéologie, science pour l'archéologie » </td>
+                        <td>VSCode</td>
+                        <td>Anglais</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Licence d'Histoire de l'Art et Archéologie</td>
+                        <td>3Ds Max</td>
+                        <td>Italien</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Baccalauréat : série littéraire</td>
+                        <td>Agisoft Metashape</td>
+                        <td>Grec Ancien</td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Une troisième section pour montrer nos skills -->
+        <section id="skills">
+            <h2 class="petit-titres">
+                <span>Mes experiences</span>
+            </h2>
+
+            <article class="post">
+                <img src="../img/uva.jpg" alt="Un pigeonier ">
+                <h1>Uva, Portugal </h1>
+                <p>Restauration, avec des techniques traditionelles, d'un pigeonnier typique de la région de la Douro, dans le Nord-Est du Portugal. </p>
+           </article>
+
+            <article class="post">
+                <img src="../img/villandraut.jpg" alt="un chateau fort">
+                <h1>Villandraut, Gironde</h1>
+                <p>Direction du chantier archéologique du château de Villandraut, château du premier pape français : Clément V.</p>
+            </article>
+
+            <article class="post">
+                <img src="../img/corent.jpg" alt="le site de corent">
+                <h1>Corent, Puy-de-Dôme</h1>
+                <p>Fouille de l'oppidum gaulois arverne, niché sur son plateau et dont les vestiges sont légions.</p>
+            </article>
+
+        </section>
+
+        <!-- Enfin on fini par un footer ou on signe le site (les copyrights) -->
+        <footer id="footer">
+            <p>Chabridon-Dailloux Florian</p>
+            <p>chabridon.florian@gmail.com</p>
+            <p>07 87 02 78 54</p>
+            
+        </footer>
+    </div>
+</body>
+
+</html>

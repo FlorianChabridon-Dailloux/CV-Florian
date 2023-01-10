@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Site dont vous êtes le héro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="img/skull.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="lanceLeDe">
+            <h1>Le Site dont vous êtes le héros !</h1>
+        
+            <button class="boutonLancer" type="button"> Lancer le dé !</button>
+            <!-- On met le titre de l'aventure ici mais on viens aussi mettre le système pour jeter des dés -->
+        </div>
+    </header>
+
+    <main>
+        <aside class="fichePerso">
+            <div>
+                <h2> Fiche Personnage</h2>
+                <p>
+                    Force
+                    Intelligence
+                    Agilité
+                    Défense
+                    Chance
+                </p>
+                <!-- Variante de gauche = feuille de personnage 
+                Il faut rendre dynamique les stats pour qu'elles s'adaptent aux objets des persos et aux stats des différents persos-->
+            </div> 
+        </aside>
+
+        <section class="zonedAction">
+           <div>
+                <p> Vous arrivez dans une clairière</p>
+                <form action="" method="get"></form>
+                <input type="radio" id="answerA">
+                <label for="answerA"> Vous allez tout droit</label>
+                <input type="radio" id="answerB">
+                <label for="answerB"> Vous allez à droite</label>
+                <input type="radio" id="answerC">
+                <label for="answerC"> Vous allez à gauche</label>
+                <!-- le paragraphe qui décrit ce qu'il se passe et les réponses qui vont avec 
+                Il faut essayer de le boucler car seulement les textes vont changer, la structure va se répéter -->
+            </div>
+        </section>
+
+        <aside class="inventaire">
+            <div>
+            <h2> Inventaire</h2>
+            <p>
+                Dans ma besace j'ai : 
+            </p>
+            <!-- Variante de droite = feuille d'inventaire 
+            Faire un <li> pour tous les items qu'on peut trouver sur sa route, et ceux de départ-->
+            </div> 
+        </aside>
+
+
+
+    </main>
+
+    <footer class="rules">
+        <div>
+            <p> Les règles du jeu sont simple !</p>
+          <!-- ICI on mettra les règles du jeu -->  
+        </div>
+
+    </footer>
+
+
+<!-- ICI on viens mettre le JS -->
+</body>
+</html>
