@@ -3,40 +3,190 @@ body {
     margin: 0;
 }
 
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8em;
+}
 
-#wrapper {
+p {
+    font-size: 0.9em;
+}
 
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 0.7em 0;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #header {
-
+    background-color: #ccc;
+    color:rgba(255,255,255,0.75);
+    padding: 5em 0 10em;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../img/calendrier.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+#header h1 {
+    color: white;
+}
 #nav-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5); /* ou code couleur #0a0a0a */
+    border: 1px solid rgba(255,255,255,0.25); /* ou code couleur #c0c0c0 */
+    border-bottom-right-radius: 8px;
 
 }
 
+#nav-header ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#nav-header ul li {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+
+#nav-header ul li a {
+    color: rgba(255,255,255,0.75);
+    transition: color 0.3s;
+}
+#nav-header ul li a :hover {
+    color: #fff;
+}
+
+
+
+section {
+    padding: 4em;
+    position: relative;
+    text-align: center;
+    line-height: 1.4;
+}
 .petit-titres {
-    
+    position: absolute;
+    left: 0;top: -20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;  
 }
 
-.section-contenu {
-
+.petit-titres span {
+    padding: 1em 3em;
 }
+
+
 
 #description {
-
+    background-color: #FC766AFF;
 }
+
+#description .petit-titres span {
+    background-color: #FC766AFF;
+}
+
+#description .petit-titres {
+    color: white;
+}
+
+
+
 
 #parcours {
-
+    background-color: #fff;
 }
+
+#parcours .petit-titres span {
+    background-color: #fff;
+}
+
+#parcours th, #parcours td {
+    padding: 10px;
+}
+
+#parcours table {
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+#parcours th {
+	text-transform: uppercase;
+	background-color: #282b34;
+	font-size: 0.8em;
+	text-align: left;
+	color: white;
+}
+
+#parcours th.type-data {
+	background-color: #FC766AFF;
+	text-align: center;
+	color: #000;
+}
+
+#parcours td {
+	width: 25%;
+	border: 1px solid #ccc;
+}
+
+#parcours img {
+    width: 100%;
+}
+
+
 
 #skills {
-
+    background-color: #F1AC88FF;
 }
 
+#skills .petit-titres span {
+    background-color: #F1AC88FF;
+}
+
+#skills .section-contenu {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+#skills article {
+    box-sizing: border-box;
+    padding: 1em 2em;
+    width: 33%;
+}
+
+#skills article:last-child {
+    width: 30%;
+}
+#skills article img {
+    box-sizing: border-box;
+    border: 10px solid white;
+    height: 20em;
+    width: 23em;
+}
+
+
+
+
 #footer {
-
-
+    padding: 4em;
+    color: #ccc;
+    background-color: black;
 }
